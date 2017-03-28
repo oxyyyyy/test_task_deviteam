@@ -17,45 +17,46 @@
     <div class="container">
         <div class="col-xl-6 col-lg-8 offset-xl-3 offset-lg-2">
             <div class="bank_card">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="img/logo.png" alt="Bank logo" class="img-fluid" id="bank_logo">
-                        </div>
-                    </div>
-                    <form>
+                <div class="overlay">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="bank_card_number">enter your bank card number:</label>
-                                    <input type="text" class="form-control" id="bank_card_number">
-                                </div>
+                            <div class="col-md-4">
+                                <img src="img/logo.png" alt="Bank logo" class="img-fluid" id="bank_logo">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="holder_name">holder name:</label>
-                                    <input type="text" class="form-control" id="holder_name" placeholder="name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="surname">surname:</label>
-                                    <input type="text" class="form-control" id="surname" placeholder="surname">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card_footer">
-                                    <div class="cards_logos">
-                                        <img src="img/visa.png" alt="VISA logo" class="card_type_logo">
-                                        <img src="img/mastercard.png" alt="MasterCard logo" class="card_type_logo">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="bank_card_number">enter your bank card number:</label>
+                                        <input type="text" class="form-control" id="bank_card_number">
                                     </div>
-                                    <div class="select_block">
-                                        <label for="mm">expires on:</label>
-                                        <select class="form-control" id="mm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="holder_name">holder name:</label>
+                                        <input type="text" class="form-control" id="holder_name" placeholder="name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="surname">surname:</label>
+                                        <input type="text" class="form-control" id="surname" placeholder="surname">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card_footer">
+                                        <div class="cards_logos">
+                                            <img src="img/visa.png" alt="VISA logo" class="card_type_logo">
+                                            <img src="img/mastercard.png" alt="MasterCard logo" class="card_type_logo">
+                                        </div>
+                                        <div class="select_block">
+                                            <label for="mm">expires on:</label>
+                                            <select class="form-control" id="mm">
                                       <option>MM</option>
                                       <option>01</option>
                                       <option>02</option>
@@ -70,7 +71,7 @@
                                       <option>11</option>
                                       <option>12</option>
                                     </select>
-                                        <select class="form-control" id="yy">
+                                            <select class="form-control" id="yy">
                                       <option>YY</option>
                                       <option>17</option>
                                       <option>18</option>
@@ -85,11 +86,12 @@
                                       <option>27</option>
                                       <option>28</option>
                                     </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

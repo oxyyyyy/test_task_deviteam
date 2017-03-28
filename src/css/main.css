@@ -8,6 +8,12 @@ body {
 .bank_card {
   background-color: #362863;
   border-radius: 5px; }
+  .bank_card .overlay {
+    background-image: url("../img/bg_map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: inherit; }
   .bank_card #bank_logo {
     margin-top: 15px; }
   .bank_card label {
